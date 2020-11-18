@@ -11,7 +11,7 @@ const app = express();
 
 // Set response
 function setResponse(travProds, rates) {
-  return `<h2>${travProds} has ${rates} Github repos</h2>`;
+  return `<h2>${travProds} has ${rates} Travel rates</h2>`;
 }
 
 // Make request to Travel Pricing for data
